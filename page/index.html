@@ -10,102 +10,185 @@
     <meta name="og:site_name" content="Proyectos personales Nico">
     <meta name="og:type" content="website">
     <meta name="og:image" content="<url-image>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dc81da99a3.js" crossorigin="anonymous"></script>
     <title>Proyectos personales Nico</title>
 </head>
-<!--Fin head e inicio body SpringGreen AliceBlue Azure FloralWhite HoneyDew-->
 
-<body style="background-color: FloralWhite; font-family: Helvetica, Arial, Serif; margin: 0;">
-    <header class="mygrad" style="text-align: center; padding: 15px;">
-        <h1 style="font-size:30px; display: inline-block; width: 400px;"> CV Nico Velásquez</h1>
-        <p style="display: inline-block; width: 400px;">Web Junior Developer</p>
-    </header>
-    <!--Fin Header -->
-    <div class="container" style=" text-align: center; padding: 15px;">
-        Desarrollador junior con conociemientos en C, Java, Python, JavaScript, NodeJS, Jsx, Xml, React, Css-Bootstrap-Tailwind.
-    </div>
-    <section class="mybody">
-        <div style="width: 960px;margin-right: auto; margin-left: auto;">
-            <div>
-                <div style="display: inline-block; width: 70%;vertical-align: top;">
-                    <h2 style="font-size:23px; font-weight: 300;">Brayan Nicolás Velásquez Caicedo</h2>
-                    <div>
-                        <dl>
-                            <dt style="font-size: 20px;text-transform: uppercase;margin-bottom: 13px;margin-top: 33px;">Educación</dt>
-                            <dd><a href="https://drive.google.com/file/d/1_mU39S3FFqj13mQRxvkwG5CRrRA4HDsG/view?usp=sharing" target="_blank">Curso de 145 horas avalado por Unidad de proyección social y centro
-                                    de proyección social Universidad Santo Tomás en Mantenimiento de
-                                    computadores.</a></dd>
-                            <dd><a href="https://drive.google.com/file/d/1_q9Rllqw3BsfUkBb5biDKXoQQu4kSZMz/view?usp=sharing" target="_blank">Curso de 45 horas avalado por Unidad de proyección social y centro de
-                                    proyección social Universidad Santo Tomás en Redes de datos LAN y
-                                    Administración remota de computadores.</a></dd>
-                            <dd><a href="https://drive.google.com/file/d/1PPhePaiJFHo4ITqgPpfni2XD0F1qGM0s/view?usp=sharing" target="_blank">Curso profesional de JavaScript certificado por CódigoFacilito.</a></dd>
-                            <dd><a href="https://drive.google.com/file/d/1lxx7TkKtms0XxXjGTSZ9THQiOzs2yvNW/view?usp=sharing" target="_blank">
-                                    Curso profesional Desarrollo Web certificado por CódigoFacilito.</a></dd>
-                        </dl>
-                    </div>
-                </div>
-                <div style="display: inline-block;width: 29%; margin-right: auto;margin-left: auto;">
-                    <img style="margin-top: 6%; width: 300px; padding: 23px" alt="Nico" class="responsive" src="assets/img/Nico2.jpg">
-                </div>
-            </div>
-            <div style="width: 960px;margin-top: 139px; margin-right:  auto;margin-left: auto;">
-                <h3 style="font-size:23px; font-weight: 300;">Experiencia Profesional </h3>
-                <div>
-                    <dl>
-                        <dt style=" margin-bottom: 13px;margin-top: 36px;">Freelance Developer</dt>
-                        <dd>2019-Current. desarrollador de proyectos relacionados con desarrollo web</dd>
-                    </dl>
-                </div>
-            </div>
-            <div style="width: 960px;margin-top: 139px; margin-right:  auto;margin-left: auto;">
-                <h3 style="font-size:23px; font-weight: 300;">Información Adicional </h3>
-                <p><b>Contacto:</b></p>
-                <ul style="margin-top: 13px; padding: 0;">
-                    <li style="margin-top: 13px;">
-                        nicovel98@gmail.com
-                    </li>
-                    <li style="margin-top: 13px;">
-                        +57 3116911210
-                    </li>
-                </ul>
-                <p><b>Otros proyectos:</b></p>
-                <ul style="margin-top: 13px; padding: 0;">
-                    <li>
-                        <a href="https://peliculasnico.000webhostapp.com/">Plantilla blog Boostrap</a>
-                    </li>
-                    <li>
-                        <a href="paginacompleta.html">Primera página con Bootstrap</a>
-                    </li>
-                </ul>
-            </div>
-            <div style="width: 960px;margin-top: 139px; margin-right:  auto;margin-left: auto;">
-                <h3 style="font-size:23px; font-weight: 300;">Social Media Networks</h3>
-                <ul style="margin-top: 13px; padding: 0;">
-                    <li style="margin-top: 13px;">
-                        <a href="https://www.twitch.tv/nicovel98">Twitch</a>
-                    </li>
-                    <li style="margin-top: 13px;">
-                        <a href="https://steamcommunity.com/id/Nicovel98">Steam</a>
-                    </li>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-toggler" data-bs-toggle="collapse" href="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </a>
+            <a class="navbar-brand mr-auto" href="#"><img src="assets/img/compass.jpg" class="rounded-pill" height="35" width="45" alt="logo"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <!---->
+                    <li class="nav-item active"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> Home </a></li>
+                    <!---->
+                    <li class="nav-item"><a class="nav-link" href="paginacompleta.html"><span class="fa fa-info-circle fa-lg"></span> First page </a></li>
+                    <!---->
+                    <li class="nav-item"><a class="nav-link" href="https://peliculasnico.000webhostapp.com/"><span class="fa fa-list-ul fa-lg"></span> Menú Películas </a></li>
+                    <!---->
+                    <li class="nav-item"><a class="nav-link" href="https://steamcommunity.com/id/Nicovel98"><span class="fab fa-steam fa-lg"></span> Steam </a></li>
+                    <!---->
+                    <li class="nav-item"><a class="nav-link" href="https://www.twitch.tv/nicovel98"><span class="fab fa-twitch fa-lg"></span> Twitch </a></li>
+                    <!---->
+                    <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/nicovel98"><span class="fab fa-facebook-square fa-lg"></span> Facebook </a></li>
+                    <!---->
+                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/nicovel98"><span class="fab fa-linkedin fa-lg"></span> LinkedIn </a></li>
+                    <!---->
                 </ul>
             </div>
         </div>
-        <!--Fin Div Principal -->
+    </nav>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1> CV Nico Velásquez</h1>
+                    <p> Desarrollador junior con conociemientos en C, Java, Python, JavaScript, NodeJS, Jsx, Xml, React, Css-Bootstrap-Tailwind.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <img src="assets/img/December.jpg" class="img-fluid" alt="Nico" width="333">
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <br>
+                    <a class="btn btn_reserve_color btn-sm btn-block" role="button" href="#certify">Certificados</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col-12 col-sm-4 col-md-3 order-sm-last">
+                    <h3>Mis Creaciones</h3>
+                </div>
+                <div class="col col-sm col-md order-sm-last">
+                    <div class="media">
+                        <img src="assets/img/dinosaur.png" class="d-flex mr-3 img-thumbnail align-self-center" width="233" alt="FirstPage">
+                        <div class="media-body">
+                            <h3 class="mt-0"><a class="page-link" href="paginacompleta.html" target="blank_"> First page </a> <span class="badge badge-success">Fun</span>
+                            </h3>
+                            <p class="d-none d-sm-block">A unique combination of memes and music on different boxes. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-content align-items-center">
+                <div class="col-12 col-sm-4 col-md-3">
+                    <h4>This Month's Projects</h4>
+                </div>
+                <div class="col col-sm col-md">
+                    <div class="media">
+                        <img class="d-flex ml-3 img-thumbnail align-self-center" src="assets/img/creative.png" width="233" alt="Peliculas">
+                        <div class="media-body order-sm-first">
+                            <h3 class="mt-0"><a class="page-link" href="https://peliculasnico.000webhostapp.com/" target="blank_"> Menú Películas </a><span class="badge badge-danger">NEW</span></h3>
+                            <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of different movie trailers. All for just one coffee to Nico.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-content align-items-center">
+                <div class="col-12 col-sm-4 col-md-3 order-sm-first">
+                    <h3>Meet our Developer Specialist</h3>
+                </div>
+                <div class="col col-sm col-md order-sm-first">
+                    <div class="media">
+                        <img src="assets/img/SofaPacora.jpg" class="d-flex mr-3 img-thumbnail align-self-center rounded-pill" width="233" alt="Nico Velasquez">
+                        <div class="media-body">
+                            <h4 class="mt-1">Brayan Nicolás Velásquez Caicedo</h4>
+                            <h5>Junior Developer</h5>
+                            <p class="mt-2 d-none d-sm-block">Soy una persona honesta, creativa, responsable y dedicada a mis labores, con
+                                buena actitud para el trabajo en equipo, siempre en constante aprendizaje ya
+                                que cada día se debe intentar algo nuevo.
+                            </p>
+                            <h4>Social Networks</h4>
+                            <a class="page-link" href="https://www.twitch.tv/nicovel98" target="blank_"><span class="fab fa-twitch fa-lg"></span> Twitch </a>
+                            <br>
+                            <a class="page-link" href="https://steamcommunity.com/id/Nicovel98" target="blank_"><span class="fab fa-steam fa-lg"></span> Steam </a>
+                            <br>
+                            <a class="page-link" href="https://www.linkedin.com/in/nicovel98" target="blank_"><span class="fab fa-linkedin fa-lg"></span> LinkedIn </a>
+                            <br>
+                            <a class="page-link" href="https://www.facebook.com/nicovel98" target="blank_"><span class="fab fa-facebook-square fa-lg"></span> Facebook </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-content align-items-center">
+                    <div class="col-12 col-sm-4 col-md-3 order-sm-last">
+                        <h3>Mis Certificados</h3>
+                    </div>
+                    <div class="col col-sm col-md order-sm-last" id="certify">
+                        <div class="media">
+                            <img src="assets/img/Dragon_fantasy.jpg" class="d-flex mr-3 img-thumbnail align-self-center rounded-pill" width="333" alt="Certificados">
+                            <div class="media-body">
+                                <p class="mt-2 d-none d-sm-block">
+                                    Mi formación profesional a la fecha me permite trabajar en principios básicos
+                                    del análisis, desarrollo y adaptación de soluciones de software que permitan
+                                    transformar, implementar y mejorar procesos organizacionales en dinámicas
+                                    laborales para el óptimo manejo de las tecnologías de la información y la
+                                    comunicación.
+                                </p>
+                                <ul class="mt-3 list-group list-group-flush">
+                                    <li class="list-group-item"><a class="page-link" href="https://drive.google.com/file/d/1EBjzB0yM2e8o_qRfii7QaRuMnfWEJrwK/view?usp=sharing" target="blank_"> Diplomado en diseño e implementación Web a partir de proyectos </a></li>
+                                    <li class="list-group-item"><a class="page-link" href="https://drive.google.com/file/d/1jXGRM6LTIKf_ofaCZQdz3eFk5o8rsYrW/view?usp=sharing" target="blank_"> Curso profesional de git y github por Appsco y Platzi​ </a></li>
+                                    <li class="list-group-item"><a class="page-link" href="https://drive.google.com/file/d/1lxx7TkKtms0XxXjGTSZ9THQiOzs2yvNW/view?usp=sharing" target="blank_"> Curso profesional Desarrollo Web por CódigoFacilito​ </a></li>
+                                    <li class="list-group-item"><a class="page-link" href="https://drive.google.com/file/d/1PPhePaiJFHo4ITqgPpfni2XD0F1qGM0s/view?usp=sharing" target="blank_"> Curso profesional de JavaScript por CódigoFacilito </a></li>
+                                    <li class="list-group-item"><a class="page-link" href="https://drive.google.com/file/d/1EBjzB0yM2e8o_qRfii7QaRuMnfWEJrwK/view?usp=sharing" target="blank_"> Diplomado en diseño e implementación Web a partir de proyectos por
+                                            la Universidad de San Buenaventura Sede Bogotá​ </a></li>
+                                    <li class="list-group-item"><a class="page-link" href="https://drive.google.com/file/d/1CF5Ubp9XzM5iOLqs5804aayPItDfIx6W/view?usp=sharing" target="blank_"> Curso Juntos es Posible por la WWF Aprende​ </a></li>
+                                    <li class="list-group-item"><a class="page-link" href="https://drive.google.com/file/d/1gK4neJAYNUP3wMscsWGRUz9sN6Ob0RRg/view?usp=sharing" target="blank_"> Curso JavaScript Esencial por LinkedIn Learning​ </a></li>
+                                    <li class="list-group-item"><a class="page-link" href="https://drive.google.com/file/d/1PPhePaiJFHo4ITqgPpfni2XD0F1qGM0s/view?usp=sharing" target="blank_"> Curso profesional de JavaScript por CódigoFacilito </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-5">
+                        <h5>Our Address</h5>
+                        <address>
+                            <span class="fa fa-map-marker"></span> Danubio Azul<br>Usme, Bogotá D.C<br>
+                            Colombia<br>
+                            <i class="fa fa-phone-square fa-lg"></i> +57 3116911210<br>
+                            <span class="fa fa-envelope-open fa-lg"></span> <a href="mailto:nicovel98@gmail.com">nicovel@gmail.com</a>
+                        </address>
+                    </div>
+                    <div class="col-12 col-sm-4 align-self-center">
+                        <div class="text-center row-footer">
+                            <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/nicovel98" target="blank_"><span class="fa fa-facebook fa-lg"></span></a>
+                            <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/nicovel98" target="blank_"><span class="fa fa-linkedin fa-lg"></span></a>
+                            <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/" target="blank_"><span class="fa fa-twitter fa-lg"></span></a>
+                            <a class="btn btn-social-icon btn-google" href="https://youtube.com/" target="blank_"><span class="fa fa-youtube-play fa-lg"></span></a>
+                            <a class="btn btn-social-icon" href="mailto:nicovel98@gmail.com"><span class="fa fa-envelope-o fa-lg"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-auto row-footer">
+                        <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                            <img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
+                        </a>
+                        <br>
+                        <span xmlns:dct="https://purl.org/dc/terms/" property="dct:title">Portafolio</span>
+                        por <span xmlns:cc="https://creativecommons.org/ns#" property="cc:attributionName">Brayan Nicolás Velásquez Caicedo</span>
+                        se distribuye bajo una <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     </section>
-    <script>
-    /*
-		<div>
-			<h3 style="font-size: 33px;font-weight: 700;">Educación </h3>
-			<div>
-				<dl>
-					<dt>Nico</dt>
-					<dd> hola</dd> 	//definición
-				</dl>
-			</div>
-		</div>
-		*/
-    </script>
 </body>
 
 </html>
