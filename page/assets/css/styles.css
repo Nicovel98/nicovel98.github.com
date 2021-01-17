@@ -19,6 +19,16 @@
 	padding: 0px;
 }
 
+#badge_code{
+	background: rgb(0,219,222);
+	background: linear-gradient(315deg, rgba(0,219,222,1) 6%, rgba(158,46,213,1) 58%, rgba(219,14,222,1) 100%); 
+}
+
+#badge_ranger{
+	background: rgb(130,255,30);
+	background: linear-gradient(174deg, rgba(130,255,30,1) 14%, rgba(22,227,30,1) 53%, rgba(0,255,157,1) 76%); 
+}
+
 .row-content {
 	margin: 0px auto;
 	padding: 50px 0px 50px 0px;
