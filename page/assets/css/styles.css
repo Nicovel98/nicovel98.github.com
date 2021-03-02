@@ -1,55 +1,120 @@
-.body{
-	padding: 50px 0px 0px 0px;
-	z-index: 0;
+.body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    z-index: 0;
 }
 
 .jumbotron {
-	padding: 70px 30px 70px 30px;
-	margin: 0px auto;
-	background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
-	color: floralwhite;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    color: floralwhite;
 }
 
 .navbar-dark {
-	background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
 }
 
-.row-header {
-	margin: 0px auto;
-	padding: 0px;
+/*.row-header {
+    margin: 0px auto;
+    padding: 0px;
+}
+*/
+#badge_code {
+    background: rgb(0, 219, 222);
+    background: linear-gradient(315deg, rgba(0, 219, 222, 1) 6%, rgba(158, 46, 213, 1) 58%, rgba(219, 14, 222, 1) 100%);
 }
 
-#badge_code{
-	background: rgb(0,219,222);
-	background: linear-gradient(315deg, rgba(0,219,222,1) 6%, rgba(158,46,213,1) 58%, rgba(219,14,222,1) 100%); 
-}
-
-#badge_ranger{
-	background: rgb(130,255,30);
-	background: linear-gradient(174deg, rgba(130,255,30,1) 14%, rgba(22,227,30,1) 53%, rgba(0,255,157,1) 76%); 
+#badge_ranger {
+    background: rgb(130, 255, 30);
+    background: linear-gradient(174deg, rgba(130, 255, 30, 1) 14%, rgba(22, 227, 30, 1) 53%, rgba(0, 255, 157, 1) 76%);
 }
 
 .row-content {
-	margin: 0px auto;
-	padding: 50px 0px 50px 0px;
-	border-bottom: 1px ridge;
-	min-height: 400px;
+    /*padding: 50px 0px 50px 0px;*/
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /*border-bottom: 1px ridge;*/
+    min-height: 400px;
+}
+
+.divider {
+    margin: 4rem 0;
+    /* Space out the Bootstrap <hr> more */
 }
 
 .footer {
-	background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
-	margin: 0px auto;
-	padding: 20px 0px 20px 0px;
+    padding: 3rem 2rem 3rem 4rem;
+    /*padding-top: 3rem;
+    padding-bottom: 3rem;*/
+    background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+    /*margin: 0px auto;*/
 }
 
-a:hover{
-	color: #f5008d;	
-	text-decoration: underline;
-	font-style: oblique;
-	font-size:103%;
+.lead {	
+    padding-bottom: 3rem;
+    padding-right: 1rem;
+    text-align: justify;
 }
 
-.btn_reserve_color{	
-	background: rgb(255,193,12);
-	background: linear-gradient(174deg, rgba(255,193,12,1) 32%, rgba(233,89,3,1) 85%); 
+.divider {
+    margin: 4rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+a:hover {    
+    font-style: oblique;
+    font-size: 103%;
+}
+
+.btn_reserve_color {
+    background: rgb(255, 193, 12);
+    background: linear-gradient(174deg, rgba(255, 193, 12, 1) 32%, rgba(233, 89, 3, 1) 85%);
+}
+
+.fa-facebook-f,
+.fa-linkedin-in {
+    color: #339af0;    
+}
+
+#itchio {
+    color: #ff6b6b;
+}
+
+#twitch {
+    color: #845ef7;
+}
+
+#steam {       
+    background: rgb(0, 173, 238);
+    background: linear-gradient(0deg, rgba(0, 173, 238, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#btn_paypal {
+	padding-top: 3rem;    
+}
+#btn_certify {
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
 }
