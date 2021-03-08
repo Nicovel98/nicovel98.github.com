@@ -15,11 +15,6 @@
     background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
 }
 
-/*.row-header {
-    margin: 0px auto;
-    padding: 0px;
-}
-*/
 #badge_code {
     background: rgb(0, 219, 222);
     background: linear-gradient(315deg, rgba(0, 219, 222, 1) 6%, rgba(158, 46, 213, 1) 58%, rgba(219, 14, 222, 1) 100%);
@@ -32,8 +27,8 @@
 
 .row-content {
     /*padding: 50px 0px 50px 0px;*/
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
     /*border-bottom: 1px ridge;*/
     min-height: 400px;
 }
@@ -41,6 +36,11 @@
 .divider {
     margin: 4rem 0;
     /* Space out the Bootstrap <hr> more */
+}
+
+.media-body {
+    padding-top: .5rem;
+    /*padding-bottom: 0.5rem;*/
 }
 
 .footer {
@@ -51,18 +51,13 @@
     /*margin: 0px auto;*/
 }
 
-.lead {	
+.lead {
     padding-bottom: 3rem;
     padding-right: 1rem;
     text-align: justify;
 }
 
-.divider {
-    margin: 4rem 0;
-    /* Space out the Bootstrap <hr> more */
-}
-
-a:hover {    
+a:hover {
     font-style: oblique;
     font-size: 103%;
 }
@@ -74,7 +69,7 @@ a:hover {
 
 .fa-facebook-f,
 .fa-linkedin-in {
-    color: #339af0;    
+    color: #339af0;
 }
 
 #itchio {
@@ -85,7 +80,7 @@ a:hover {
     color: #845ef7;
 }
 
-#steam {       
+#steam {
     background: rgb(0, 173, 238);
     background: linear-gradient(0deg, rgba(0, 173, 238, 1) 0%, rgba(0, 0, 0, 1) 100%);
     -webkit-background-clip: text;
@@ -93,10 +88,11 @@ a:hover {
 }
 
 #btn_paypal {
-	padding-top: 3rem;    
+    padding-top: 3rem;
 }
+
 #btn_certify {
-	padding-top: 1rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
