@@ -25,6 +25,10 @@
     background: linear-gradient(174deg, rgba(130, 255, 30, 1) 14%, rgba(22, 227, 30, 1) 53%, rgba(0, 255, 157, 1) 76%);
 }
 
+#badge_game {
+	background: rgba(158, 46, 213, 1);
+}
+
 .row-content {
     /*padding: 50px 0px 50px 0px;*/
     padding-top: .75rem;
